@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contanier">
+      <div class="card">
+        <section id="search">
+          <input class="input" type="text" placeholder="enter city name" />
+          <!-- <i class="fa-solid fa-magnifying-glass icons"></i> -->
+          <img class="icon" src="./images/search2.png" alt="img" />
+          <!-- <i class="icon fa-regular fa-magnifying-glass"></i> -->
+        </section>
+        <div class="weather">
+          <section id="section02">
+            <div class="weather__img">
+              <img src="./images/rain.png" alt="" />
+            </div>
+            <div class="city__Name">
+              <h1 class="temp">7°c</h1>
+              <h2 class="city">Paskistan</h2>
+            </div>
+          </section>
+
+          <section id="section03">
+            <div class="col">
+              <img src="./images/humidity.png" alt="img" />
+              <div class="about">
+                <p class="humidity">43%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="./images/wind.png" alt="" />
+              <div class="about">
+                <p class="wind">10 km/h</p>
+                <p>wind speed</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="erorr">
+          <h1>OPPS!!</h1>
+          <p>this invalied city</p>
+        </section>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
